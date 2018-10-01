@@ -1,0 +1,101 @@
+think on paper first
+see if hash tables can be used(always think hash table first)
+printing parameters to see what it is to better understand the question
+
+sorting
+hashing
+data structure
+forward
+backtracking?
+solving backwards after finding solution
+start from middle then go to each end
+start at each end and go to middle
+
+
+
+when coming up with own example, try to come up with an simple extreme case to formulate strategy on
+
+
+
+
+
+________________________________________________________________________________________________________________________________________________
+
+
+study these algo and data structures:
+https://hbfs.wordpress.com/2008/12/23/the-10-classes-of-algorithms-every-programmer-must-know-about/
+
+1. Lists, Arrays, Stack, Set
+
+2. Trees: https://www.quora.com/What-are-the-types-of-trees-in-data-structures#
+    binary trees: Binary Search Tree - Used in many search applications where data is constantly entering/leaving, such as the map and set objects in many languages' libraries.
+    https://www.cs.cmu.edu/~adamchik/15-121/lectures/Trees/trees.html
+
+    Heaps - Use it whenever you need quick access to the largest (or smallest) item, because that item will always be the first element in the array or at the root of the tree.
+
+However, the remainder of the array is kept partially unsorted. Thus, instant access is only possible to the largest (smallest) item. Insertions are fast, so it's a good way to deal with incoming events or data and always have access to the earliest/biggest.
+
+Useful for priority queues, schedulers (where the earliest item is desired), etc...
+
+A heap is a tree where a parent node's value is larger than that of any of its descendant nodes.
+
+If you think of a heap as a binary tree stored in linear order by depth, with the root node first (then the children of that node next, then the children of those nodes next); then the children of a node at index N are at 2N+1 and 2N+2. This property allows quick access-by-index. And since heaps are manipulated by swapping nodes, this allows for in-place sorting.
+
+3. sorting and searching alorithms
+4. priority queues
+5. hashing
+6. dynamix programming
+
+
+array/strings:
+ascii for string/char
+think about interchanging string and arrays with each other
+
+
+linked list:
+con: will have to search in k time for kth element
+pro: removing or adding at the head of list is in constant time
+tips:
+two pointers in linked list,
+    ex:1 in front of another, can almost move at diff speed, ex: move pointer1 twice for every time pointer 2 moves
+
+Recurseion: also try thinking recursion for solution for some linked list problems
+split linked list then merge in the end:
+    ex: sort list to have everything less than n in the front and everything larger than or equal after
+fast runner/ slow runner method:
+    can help find hte middle of linked list without knowing the size
+How to check if two pointers are pointing to the same node? (check node address, not value)
+
+!!!!When you hear a problem beginning with the following statements, it's often (though not always) a good
+
+candidate for recursiC!n: "Design an algorithm to compute the nth .. :; "Write code to list the first n .. :; "Imple-
+ment a method to compute all..:; and so on.!!!
+
+3 ways of recursion: bottom up, topdown, half-and-half
+
+
+tree:
+binary tree vs binary search tree
+balance/unbalance
+complete/full and both complete and full
+in/pre/post order
+tries (prefix-trees)
+
+graph:
+bfs/dfs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
