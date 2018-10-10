@@ -10,6 +10,7 @@ class Node:
         return str(self.data)
 
 
+# get list of all nodes at each level, then just print out hte 0th index for each list (0th index is the left most node)
 def traverse_tree(root):
     if root is None:
         return

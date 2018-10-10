@@ -8,13 +8,21 @@ graph = {'A': set(['B', 'C']),
          'F': set(['C', 'E'])}
 
 
+print(graph['B'])
+print(type(graph))
+
+
+
 def dfs(graph, start):
     visited, stack = set(), [start]
     while stack:
         vertex = stack.pop()
         if vertex not in visited:
             visited.add(vertex)
-            stack.extend(graph[vertex] - visited)
+            print("before stack:", stack)
+            stack.extend(graph[vertex] - visited) # deleting visited from graph. Graph is a dictionary, this only works with a dictionary
+            print("after stack:", stack)
+            print()
     return visited
 
 print(dfs(graph, 'A'))
@@ -26,7 +34,7 @@ def bfs(graph, start):
         vertex = queue.pop(0)
         if vertex not in visited:
             visited.add(vertex)
-            queue.extend(graph[vertex] - visited)
+            queue.extend(graph[vertex] - visited) # only works with dictionary
     return visited
 
 print(bfs(graph, 'A'))
@@ -56,15 +64,6 @@ def bfs(root):
             if node.marked == False:
                 node.marked = True
                 queue.append(node)
-
-
-
-
-
-
-
-
-
 
 
 

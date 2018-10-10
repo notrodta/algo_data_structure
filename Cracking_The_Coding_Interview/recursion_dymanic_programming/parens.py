@@ -5,39 +5,31 @@
 # reference: https://www.youtube.com/watch?v=vYquumk4nWw
 
 
-# WRONG =[
-def answer(n):
-    if n == 0: return
-    if n == 1: return ["()"]
+# https://www.youtube.com/watch?v=LxwiwlUDOk4
+def generate_parens(n):
+    if n == 0: return []
 
-    bottom_up = [None] * (n+1)
-    bottom_up[0] = []
-    bottom_up[1] = ["()"]
+    return generate_parens_helper("", n, 0)
 
 
-    for i in range(2, n+1):
-        s = set()
-        #for j in range (0, len(bottom_up[i-1])):
-        for data in bottom_up[i-1]:
-            curr = data
-            data1 = "(" + curr + ")"
-            data2 = "()" + curr
-            data3 = curr + "()"
-            s.add(data1)
-            s.add(data2)
-            s.add(data3)
-        bottom_up[i] = s
+def generate_parens_helper(curr, open_amt, close_amt):
+    if open_amt == 0:
+        return [curr + ")" * close_amt]
+    if open_amt > 0 and close_amt == 0:
+        return generate_parens_helper(curr + "(", open_amt-1, close_amt + 1)
 
-    print()
-    print(len(bottom_up[n]))
-    return bottom_up[n]
+    return generate_parens_helper(curr + "(", open_amt-1, close_amt + 1) \
+           + generate_parens_helper(curr + ")", open_amt, close_amt - 1)
 
 
-print(answer(1))
-print(answer(2))
-print(answer(3))
-print(answer(4))
-print(answer(5))
+
+
+
+# print(generate_parens(1))
+# print(generate_parens(2))
+print(generate_parens(3))
+#print(generate_parens(4))
+# print(generate_parens(5))
 
 
 # Python3 program to
@@ -72,8 +64,8 @@ def _printParenthesis(str, pos, n,
             # Driver Code
 
 
-n = 5
-str = [""] * 2 * n
-printParenthesis(str, n)
+# n = 5
+# str = [""] * 2 * n
+#printParenthesis(str, n)
 
 

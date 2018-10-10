@@ -7,7 +7,7 @@ def answer(r,c,n,m, memo):
         return 1
     if r > n or c > m:
         return 0
-    if memo[r][c] > -1:
+    if memo[r][c] is not None:
         return memo[r][c]
 
     memo[r][c] = answer(r+1,c, n,m, memo) + answer(r,c+1,n,m, memo)
@@ -15,11 +15,12 @@ def answer(r,c,n,m, memo):
 
 
 def answer_memo(n,m):
-    memo = [[-1 for i in range(m+1)] for j in range(n+1) ]
-    return answer(1,1,n,m,memo)
+    memo = [[None for i in range(m+1)] for j in range(n+1) ]
+    return answer(0,0,n,m,memo)
 
 
 
+print(answer_memo(1,3))
 print(answer_memo(7,3))
 
 

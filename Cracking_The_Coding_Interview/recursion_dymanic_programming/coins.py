@@ -2,10 +2,14 @@
 
 list = [25,10,5,1]
 def combo(amt, currentCoin):
+    # if amt >= 0:
+    #     print(list[currentCoin])
+
     if amt == 0:
         return 1
     if amt < 0:
         return 0
+
 
     nCombos = 0
 

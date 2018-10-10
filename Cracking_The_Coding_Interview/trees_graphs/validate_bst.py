@@ -93,6 +93,9 @@ print(is_bst_inorder_array(root1))
 print(is_bst_inorder(root1))
 print()
 
+from basic.tree_traversal import *
+inOrder(root1)
+
 
 
 

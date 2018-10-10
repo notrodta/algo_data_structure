@@ -18,6 +18,14 @@ class SingleLinkedList:
             self.curr = self.curr.next
 
 
+def print_list(head):
+    curr = head
+
+    while curr:
+        print(curr.data)
+        curr = curr.next
+
+
 
 
 node = ListNode(1)
@@ -27,8 +35,8 @@ single_linked_list = SingleLinkedList()
 single_linked_list.head = node
 single_linked_list.tail = tail
 
-single_linked_list.print_list()
-print(single_linked_list.head.data)
-print(single_linked_list.tail.data)
+# single_linked_list.print_list()
+# print(single_linked_list.head.data)
+# print(single_linked_list.tail.data)
 
 
