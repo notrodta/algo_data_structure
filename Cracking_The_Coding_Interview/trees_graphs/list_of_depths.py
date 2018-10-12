@@ -47,17 +47,6 @@ def list_of_depths(root):
 
     return depth
 
-# prints linked list
-def print_linked_list(head):
-    curr = head
-    s = ""
-    while curr:
-        s += curr.__str__()
-        if curr.next: s += " -> "
-        curr = curr.next
-    print(s)
-
-
 # creates linked list from list of node data
 def create_linked_list(list): # list of all the nodes on the current depth
     head = ListNode(list[0])
@@ -80,6 +69,17 @@ def get_all_link_list(depth):
 
     for head in l:
         print_linked_list(head)
+
+
+# prints linked list
+def print_linked_list(head):
+    curr = head
+    s = ""
+    while curr:
+        s += curr.__str__()
+        if curr.next: s += " -> "
+        curr = curr.next
+    print(s)
 
 
 if __name__ == '__main__':
