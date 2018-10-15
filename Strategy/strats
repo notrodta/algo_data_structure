@@ -59,6 +59,10 @@ tips:
 two pointers in linked list,
     ex:1 in front of another, can almost move at diff speed, ex: move pointer1 twice for every time pointer 2 moves
 
+
+
+Most likely recursion problem: "Design an algorithm to compute the nth ..:; "Write code to list the  rst n ..:; "Imple­ ment a method to compute all..:; and so on.
+
 Recurseion: also try thinking recursion for solution for some linked list problems
 split linked list then merge in the end:
     ex: sort list to have everything less than n in the front and everything larger than or equal after

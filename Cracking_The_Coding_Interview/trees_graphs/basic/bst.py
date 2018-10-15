@@ -17,6 +17,7 @@ class Node:
         self.data = data
 
 
+    # a new node is always inserted at the leaf
     def insert(self, data):
         """
         Insert new node with data
@@ -36,6 +37,80 @@ class Node:
                     self.right.insert(data)
         else:
             self.data = data
+
+
+    '''
+    
+    DELETING NODE
+    
+    Node to be deleted is leaf: Simply remove from the tree.
+              50                            50
+           /     \         delete(20)      /   \
+          30      70       --------->    30     70 
+         /  \    /  \                     \    /  \ 
+       20   40  60   80                   40  60   80
+       
+    Node to be deleted has only one child: Copy the child to the node and delete the child
+             50                            50
+           /     \         delete(30)      /   \
+          30      70       --------->    40     70 
+            \    /  \                          /  \ 
+            40  60   80                       60   80
+            
+    Node to be deleted has two children: Find inorder successor of the node. Copy contents of the inorder successor to the node and delete the inorder successor. Note that inorder predecessor can also be used.
+    
+              50                            60
+           /     \         delete(50)      /   \
+          40      70       --------->    40    70 
+                 /  \                            \ 
+                60   80                           80
+    
+    '''
+
+    # Given a binary search tree and a key, this function
+    # delete the key and returns the new root
+    def deleteNode(root, key):
+
+        # Base Case
+        if root is None:
+            return root
+
+            # If the key to be deleted is smaller than the root's
+        # key then it lies in  left subtree
+        if key < root.key:
+            root.left = deleteNode(root.left, key)
+
+            # If the kye to be delete is greater than the root's key
+        # then it lies in right subtree
+        elif (key > root.key):
+            root.right = deleteNode(root.right, key)
+
+            # If key is same as root's key, then this is the node
+        # to be deleted
+        else:
+
+            # Node with only one child or no child
+            if root.left is None:
+                temp = root.right
+                root = None
+                return temp
+
+            elif root.right is None:
+                temp = root.left
+                root = None
+                return temp
+
+                # Node with two children: Get the inorder successor
+            # (smallest in the right subtree)
+            temp = minValueNode(root.right)
+
+            # Copy the inorder successor's content to this node
+            root.key = temp.key
+
+            # Delete the inorder successor
+            root.right = deleteNode(root.right, temp.key)
+
+        return root
 
     def lookup(self, data, parent=None):
         """
@@ -66,6 +141,9 @@ class Node:
         print(self.data)
         if self.right:
             self.right.print_tree()
+
+    def __str__(self):
+        return str(self.data)
 
 
 root = Node(8)

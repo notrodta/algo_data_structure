@@ -10,7 +10,9 @@ def permutations(string):
         return string
     else:
         for char in string:
-            [permutation_list.append(char + a) for a in permutations(string.replace(char, ""))]
+            #[permutation_list.append(char + a) for a in permutations(string.replace(char, ""))]
+            for a in permutations(string.replace(char, "")):
+                permutation_list.append(char + a)
     return permutation_list
 
 
@@ -50,11 +52,7 @@ print(permutations2("abca"))
 
 
 
-
-
-
-
-''' --------------------------- WRONG-----------------------------'''
+''' --------------------------- Better one!! -----------------------------'''
 
 # permutation without unique characters
 def permutation(lst):
@@ -86,30 +84,24 @@ def permutation(lst):
             #print([m]+p)
             l.append(m + p)
 
-
     return l
 
 
 def dup(lst):
-    dup = permutation(lst)
     s = set()
-    for l in dup:
-        s.add(tuple(l))
+    perm = permutation(lst)
+
+    for p in perm:
+        s.add(p)
 
     return s
 
 
+
 print()
-# # Driver program to test above function
-# no_dup = permutation("abc")
-# print(no_dup)
 print(permutation("abc"))
-print()
-print(permutation("abca"))
-#
-# print()
-# dup = dup(data)
-# print(dup)
+print(dup("abca"))
+
 
 
 
