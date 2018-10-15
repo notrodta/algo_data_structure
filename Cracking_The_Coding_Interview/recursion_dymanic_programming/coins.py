@@ -18,6 +18,8 @@ def combo(amt, currentCoin):
 
     return nCombos
 
+
+
 print(combo(20,0))
 
 
@@ -33,3 +35,34 @@ def test(n):
 
 
 print(test(20))
+
+
+
+''' ------------ dp ---------------'''
+
+def helper(amt, currentCoin, memo):
+    if amt == 0:
+        return 1
+    if amt < 0:
+        return 0
+
+    if memo[amt][currentCoin] is not None:
+        return memo[amt][currentCoin]
+
+
+    nCombos = 0
+
+    for coin in range (currentCoin, len(list)):
+        print(memo[amt][currentCoin])
+        nCombos += helper(amt - list[coin], coin, memo)
+
+    memo[amt][currentCoin] = nCombos
+    return nCombos
+
+
+def answer(amt):
+    memo = [[None for i in range(0,9999)] for j in range(0,9999)]
+    return helper(amt, 0, memo)
+
+
+print(answer(20))

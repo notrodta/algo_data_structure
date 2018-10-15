@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ebbdb55-b494-4002-a3c7-32c5e301340b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/basic/dfs_pathfinding.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/build_order.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/successor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geeksforgeeks/average_of_m_groups.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geeksforgeeks/format_num.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geeksforgeeks/missing_word.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geeksforgeeks/reverse_sentence.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geeksforgeeks/reverse_string.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geeksforgeeks/sqr_root_binary_search.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geeksforgeeks/why_oop" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/minimum_coin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/nqueens.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/permutation_without_dubs.py" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/permutation_without_dubs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/basic/bst.py" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/basic/bst.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/basic/tree_traversal.py" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/basic/tree_traversal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/first_common_ancestor.py" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/first_common_ancestor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strategy/strats" afterPath="$PROJECT_DIR$/Strategy/strats" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/coins.py" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/coins.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +19,7 @@
       <file leaf-file-name="power_set.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/power_set.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="457">
               <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
               <folding>
                 <marker date="1539557638331" expanded="true" signature="879:940" ph="..." />
@@ -40,91 +28,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="magic_index.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/magic_index.py">
+      <file leaf-file-name="jpmc_questions" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/behavior/jpmc_questions">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="-1441">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paintfill.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/paintfill.py">
+      <file leaf-file-name="check_balance.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/check_balance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            <state relative-caret-position="30">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bst.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/basic/bst.py">
+      <file leaf-file-name="first_common_ancestor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/first_common_ancestor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1898">
-              <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+            <state relative-caret-position="420">
+              <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dfs_bfs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/basic/dfs_bfs.py">
+      <file leaf-file-name="bloomberg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/behavior/bloomberg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+            <state relative-caret-position="555">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dfs_pathfinding.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/basic/dfs_pathfinding.py">
+      <file leaf-file-name="nqueens.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/nqueens.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="180">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="triple_step.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/triple_step.py">
+      <file leaf-file-name="strats" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Strategy/strats">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="1080">
+              <caret line="63" column="163" lean-forward="false" selection-start-line="63" selection-start-column="163" selection-end-line="63" selection-end-column="163" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coins.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3683">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coins.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/coins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="412">
+              <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="permutation_without_dubs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/permutation_without_dubs.py">
+      <file leaf-file-name="minimum_coin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/minimum_coin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="84" column="27" lean-forward="false" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parens.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/parens.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -162,7 +150,6 @@
         <option value="$PROJECT_DIR$/Cracking_The_Coding_Interview/linked_list/kth_to_last.py" />
         <option value="$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/left_most_node.py" />
         <option value="$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/validate_bst.py" />
-        <option value="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/coins.py" />
         <option value="$PROJECT_DIR$/behavior/confusions" />
         <option value="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/triple_step.py" />
         <option value="$PROJECT_DIR$/Cracking_The_Coding_Interview/linked_list/partition.py" />
@@ -196,11 +183,14 @@
         <option value="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/power_set.py" />
         <option value="$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/basic/bst2.py" />
         <option value="$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/basic/bst_two.py" />
+        <option value="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/nqueens.py" />
+        <option value="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/minimum_coin.py" />
+        <option value="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/coins.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="426" />
+    <option name="x" value="473" />
     <option name="y" value="23" />
     <option name="width" value="1014" />
     <option name="height" value="827" />
@@ -232,37 +222,13 @@
             <path>
               <item name="algo_data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="algo_data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="behavior" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algo_data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo_data_structure" type="462c0819:PsiDirectoryNode" />
               <item name="Cracking_The_Coding_Interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algo_data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo_data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="Cracking_The_Coding_Interview" type="462c0819:PsiDirectoryNode" />
-              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algo_data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="algo_data_structure" type="462c0819:PsiDirectoryNode" />
               <item name="Cracking_The_Coding_Interview" type="462c0819:PsiDirectoryNode" />
               <item name="recursion_dymanic_programming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algo_data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo_data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="Cracking_The_Coding_Interview" type="462c0819:PsiDirectoryNode" />
-              <item name="trees_graphs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algo_data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo_data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="Cracking_The_Coding_Interview" type="462c0819:PsiDirectoryNode" />
-              <item name="trees_graphs" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algo_data_structure" type="b2602c69:ProjectViewProjectNode" />
@@ -317,7 +283,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="426" y="23" width="1014" height="827" extended-state="0" />
+    <frame x="473" y="23" width="1014" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21203156" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -356,46 +322,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/basic/graphs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/basic/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/route_between_nodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/minimal_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/basic/queue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/build_order.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -510,26 +440,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Strategy/strats">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="63" column="163" lean-forward="false" selection-start-line="63" selection-start-column="163" selection-end-line="63" selection-end-column="163" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/dict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-201">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/check_balance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -563,24 +477,6 @@
         <state relative-caret-position="674">
           <caret line="57" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/behavior/bloomberg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/first_common_ancestor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
-          <folding>
-            <element signature="e#277#303#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,14 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/coins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/magic_index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -709,16 +597,6 @@
         <state relative-caret-position="172">
           <caret line="84" column="27" lean-forward="false" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/power_set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding>
-            <marker date="1539557638331" expanded="true" signature="879:940" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,8 +634,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/basic/dfs_pathfinding.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="351">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/build_order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/check_balance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/trees_graphs/first_common_ancestor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavior/bloomberg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/power_set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <marker date="1539557638331" expanded="true" signature="879:940" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behavior/jpmc_questions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1441">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/nqueens.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strategy/strats">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="63" column="163" lean-forward="false" selection-start-line="63" selection-start-column="163" selection-end-line="63" selection-end-column="163" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3683">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/minimum_coin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/coins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
           <folding />
         </state>
       </provider>
