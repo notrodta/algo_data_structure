@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ebbdb55-b494-4002-a3c7-32c5e301340b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/minimum_coin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/nqueens.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/coins.py" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/coins.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,8 +98,8 @@
       <file leaf-file-name="coins.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/coins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+            <state relative-caret-position="247">
+              <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -724,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/coins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        <state relative-caret-position="247">
+          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
           <folding />
         </state>
       </provider>

@@ -53,7 +53,6 @@ def helper(amt, currentCoin, memo):
     nCombos = 0
 
     for coin in range (currentCoin, len(list)):
-        print(memo[amt][currentCoin])
         nCombos += helper(amt - list[coin], coin, memo)
 
     memo[amt][currentCoin] = nCombos
@@ -61,7 +60,7 @@ def helper(amt, currentCoin, memo):
 
 
 def answer(amt):
-    memo = [[None for i in range(0,9999)] for j in range(0,9999)]
+    memo = [[None for i in range(0,100)] for j in range(0,100)]
     return helper(amt, 0, memo)
 
 
