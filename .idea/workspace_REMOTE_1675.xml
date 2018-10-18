@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="2ebbdb55-b494-4002-a3c7-32c5e301340b" name="Default" comment="" />
-=======
     <list default="true" id="2ebbdb55-b494-4002-a3c7-32c5e301340b" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/moderate/intersection.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/moderate/number_swapper.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cracking_The_Coding_Interview/moderate/word_frequency.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
->>>>>>> 4247da48d1cfef1ec86d0c16514806c115f605bd
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,13 +89,8 @@
       <file leaf-file-name="nqueens.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/recursion_dymanic_programming/nqueens.py">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="219">
-              <caret line="130" column="44" lean-forward="false" selection-start-line="130" selection-start-column="44" selection-end-line="130" selection-end-column="44" />
-=======
             <state relative-caret-position="-16">
               <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
->>>>>>> 4247da48d1cfef1ec86d0c16514806c115f605bd
               <folding />
             </state>
           </provider>
@@ -815,13 +806,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cracking_The_Coding_Interview/moderate/intersection.py">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="219">
-          <caret line="130" column="44" lean-forward="false" selection-start-line="130" selection-start-column="44" selection-end-line="130" selection-end-column="44" />
-=======
         <state relative-caret-position="289">
           <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
->>>>>>> 4247da48d1cfef1ec86d0c16514806c115f605bd
           <folding />
         </state>
       </provider>
