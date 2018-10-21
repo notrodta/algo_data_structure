@@ -1,5 +1,11 @@
 from bst import Node
 
+'''
+variable revert back 1 step after return
+arr in parameter stays the same even after return function, unless you return that arr, then the arr go back 1 step
+
+'''
+
 def get_children(root):
     l = []
     if root.left:
@@ -50,9 +56,9 @@ root.right.left = Node(5)
 y = root.right.right = Node(10)
 x = root.left.left.left = Node(10)
 
-print(answer(root, 10))
-print(answer(root, 10))
-
+print(answer(root, 5))
+# print(answer(root, 10))
+print()
 print(shortest_path_dfs(root, 10))
 
 
