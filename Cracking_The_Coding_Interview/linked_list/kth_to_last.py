@@ -2,6 +2,7 @@
 
 from basic.single_linked_list import *
 
+# O(n) time and o(1) space
 def answer(head, k):
     curr = head
     ahead = head

@@ -18,28 +18,10 @@ def combo(amt, currentCoin):
 
     return nCombos
 
-
-
 print(combo(20,0))
 
 
-
-# this way cosider all permuation as unique answer, similar to the staircase problem
-def test(n):
-    if n == 0:
-        return 1
-    if n < 0:
-        return 0
-
-    return test(n-25) + test(n-10) + test(n-5) + test(n-1)
-
-
-print(test(20))
-
-
-
 ''' ------------ dp ---------------'''
-
 def helper(amt, currentCoin, memo):
     if amt == 0:
         return 1
@@ -65,3 +47,21 @@ def answer(amt):
 
 
 print(answer(20))
+
+
+
+
+# this way cosider all permuation as unique answer, similar to the staircase problem
+def test(n):
+    if n == 0:
+        return 1
+    if n < 0:
+        return 0
+
+    return test(n-25) + test(n-10) + test(n-5) + test(n-1)
+
+
+print(test(20))
+
+
+

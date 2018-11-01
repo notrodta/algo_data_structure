@@ -22,8 +22,9 @@ print(answer([1,2,3],[]))
 print()
 
 
-
+# https://www.youtube.com/watch?v=J_odcqzHGqw
 #recursion:
+# expnential time complexity?
 def powerset(set, newset):
     if set == []:
         return [newset]
@@ -37,6 +38,7 @@ def powerset(set, newset):
     return res
 
 print(powerset([1,2,3],[]))
+# [[1, 2, 3], [1, 2], [1, 3], [1], [2, 3], [2], [3], []]
 
 
 

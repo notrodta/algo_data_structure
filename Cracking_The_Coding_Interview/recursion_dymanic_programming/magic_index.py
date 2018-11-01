@@ -4,6 +4,7 @@
 # What if the values are not distinct?
 
 
+# binary search method, O(log n)
 def answer(arr, index=None):
     #print()
     i = len(arr)//2

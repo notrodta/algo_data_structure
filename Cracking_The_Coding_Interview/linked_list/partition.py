@@ -3,6 +3,7 @@
 
 from basic.single_linked_list import *
 
+#O(n)
 def answer(root, n):
     small = None
     small_curr = small

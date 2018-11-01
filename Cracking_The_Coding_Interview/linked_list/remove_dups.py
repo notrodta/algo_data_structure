@@ -2,6 +2,7 @@
 
 from basic.single_linked_list import *
 
+# O(n)
 def answer(head):
     s = set()
 

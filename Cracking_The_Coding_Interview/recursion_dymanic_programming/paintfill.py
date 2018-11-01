@@ -1,6 +1,7 @@
 # Paint Fill: Implement the "paint fill" function that one might see on many image editing programs. That is, given a screen (represented by a two-dimensional array of colors), a point, and a new color, fill in the surrounding area until the color changes from the original color.
 
 
+# O(n*m)?   go thru every cell
 def paintfill(matrix, r, c, oldcolor, newcolor):
     if r < 0 or r > len(matrix) or c < 0 or c > len(matrix[0]): return
     if matrix[r][c] == newcolor: return

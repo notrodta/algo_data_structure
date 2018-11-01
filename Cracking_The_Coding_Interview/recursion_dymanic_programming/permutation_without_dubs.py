@@ -54,6 +54,15 @@ print(permutations2("abca"))
 
 ''' --------------------------- Better one!! -----------------------------'''
 
+# 2. How many times does function perm get called before its base case?
+# Consider that lines 9 through 12 are hit n number of times. Therefore, there will be no more than (n * n!) function calls.
+#
+# 3. How long does each function call take?
+# Since, each character of string prefix needs to be printed, thus executing line 7 will take O(n) time. Line 10 and line 11 will also take O(n) time combined due to string concatenation, as sum of rem, prefix and str.charAt(i) will always be n. Each function call therefore corresponds to O(n) work.
+#
+# 4. What is the total runtime?
+# Calling perm O(n * n!) times (as an upper bound) and each call takes O(n) time, the total runtime will not exceed O(n^2 * n!).
+
 # permutation without unique characters
 def permutation(lst):
     # If lst is empty then there are no permutations
@@ -99,8 +108,8 @@ def dup(lst):
 
 
 print()
-print(permutation("abc"))
-print(dup("abca"))
+print(permutation("abc")) # ['abc', 'acb', 'bac', 'bca', 'cab', 'cba']
+print(dup("abca")) # {'acba', 'acab', 'aacb', 'bcaa', 'aabc', 'caab', 'abca', 'abac', 'baca', 'caba', 'cbaa', 'baac'}
 
 
 

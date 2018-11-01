@@ -1,5 +1,8 @@
 #https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/
 
+
+#DFS AND BFS both time complexity is O(V+E)
+
 graph = {'A': set(['B', 'C']),
          'B': set(['A', 'D', 'E']),
          'C': set(['A', 'F']),
