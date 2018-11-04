@@ -8,14 +8,32 @@ def answer(pattern, value):
     a_len = 1
 
     while a_len < len(value)-1:
-        new_value = value.replace(value[:a_len],"")
+        #new_value = value.replace(value[:a_len],"")
         #print(value[:a_len], new_value)
-        if check(value[:a_len], new_value, pattern, value):
+        offset = helper(a_len, pattern, value)
+        # print(value[:a_len], value[a_len: a_len+offset])
+        # print()
+        if offset < 0: return False
+        if check(value[:a_len], value[a_len: a_len+offset], pattern, value):
             return True
 
         a_len += 1
 
     return False
+
+def helper(a_len, pattern, value):
+    a_counter = 0
+    b_counter = 0
+    for char in pattern:
+        if char == 'a':
+            a_counter += 1
+        else:
+            b_counter += 1
+
+    val_len = len(value)
+    a = val_len - (a_counter * a_len)
+    #print("a", a, "b_len", a//b_counter)
+    return a//b_counter
 
 
 def check(a,b, pattern, value):
@@ -29,7 +47,8 @@ def check(a,b, pattern, value):
 
 
 
-print(check('dog', 'cat', 'aba', 'dogcatdog'))
+# print(check('dog', 'cat', 'aba', 'dogcatdog'))
 print(answer('aba','dogcatdog'))
+print(answer('aba','dogcatdogs'))
 print(answer('ab','dogcatdog'))
 print(answer('b','dogcatdog'))

@@ -43,15 +43,8 @@ def bfs(graph, start):
 print(bfs(graph, 'A'))
 
 
-#pseudo
-def dfs(root):
-    if root == None: return
-    print(root)
-    root.visited = True
 
-    for node in root.adjacent:
-        if node.visited == False:
-            dfs(node)
+'''         MORE CLEAR WAY      '''
 
 
 from collections import deque
@@ -69,4 +62,48 @@ def bfs(root):
                 queue.append(node)
 
 
+#pseudo
+def dfs(root):
+    if root == None: return
+    print(root)
+    root.visited = True
 
+    for node in root.adjacent:
+        if node.visited == False:
+            dfs(node)
+
+# this works, this code is assuming node dont have visited attribute
+def dfs_better(root, visited = set()):
+    if root is None: return
+
+    print(root.data)
+
+    for node in get_neigbhor(root):
+        if node not in visited:
+            visited.add(node)
+            dfs_better(node, visited)
+
+
+def get_neigbhor(root):
+    l = []
+    if root.left:
+        l.append(root.left)
+    if root.right:
+        l.append(root.right)
+
+    return l
+
+
+
+
+from bst import Node
+root = Node(4)
+root.left = Node(2)
+root.right = Node(6)
+root.left.left = Node(1)
+root.left.right = Node(3)
+root.right.left = Node(5)
+root.right.right = Node(7)
+
+print("dfs_better:")
+dfs_better(root)

@@ -14,20 +14,37 @@ def get_children(root):
         l.append(root.right)
     return l
 
-# not the shortest, just return the first path found
-def answer(root, end, path=[]):
-    path = path + [root.data]
+# # not the shortest, just return the first path found
+# def answer(root, end, path=[]):
+#     path = path + [root.data]
+#     print(path)
+#
+#     if root.data == end:
+#         return path
+#
+#     for node in get_children(root):
+#         if node.data not in path:
+#             newPath = answer(node, end, path)
+#             if newPath != None:
+#                 return newPath
+#
+#     return None
 
-    if root.data == end:
-        return path
+
+# testing
+# not the shortest, just return the first path found
+def answer(root, end, path = []):
+    if root is None: return
+
+    print(path)
+
 
     for node in get_children(root):
-        if node.data not in path:
-            newPath = answer(node, end, path)
-            if newPath != None:
-                return newPath
+        if node not in path:
+            path = path + [root.data]
+            answer(node, end, path)
 
-    return None
+
 
 
 def shortest_path_dfs(root, end, path=[], shortest= None):

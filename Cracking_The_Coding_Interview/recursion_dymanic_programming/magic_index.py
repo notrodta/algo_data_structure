@@ -5,6 +5,32 @@
 
 
 # binary search method, O(log n)
+def mi(arr):
+    return mi_helper(arr, 0, len(arr)-1)
+
+def mi_helper(arr, l, r):
+    if r >= l:
+        mid = (l+r)//2
+
+        if arr[mid] == mid:
+            return mid
+        if arr[mid] < mid:
+            return mi_helper(arr, mid+1, r)
+        if arr[mid] > mid:
+            return mi_helper(arr, l, mid-1)
+
+    return -1
+
+arr = [-40,-20,-1,1,2,3,5,8,9,12,13]
+arr2 = [-40,-20,-1,1,2,3,5,7,9,12,13]
+print()
+print(mi(arr))
+print(mi(arr2))
+
+
+
+
+# my old way, not as good
 def answer(arr, index=None):
     #print()
     i = len(arr)//2
@@ -48,5 +74,8 @@ print(answer(arr2))
 print(answer(arr3))
 print(answer(arr4))
 print(answer(arr5))
+
+
+
 
 

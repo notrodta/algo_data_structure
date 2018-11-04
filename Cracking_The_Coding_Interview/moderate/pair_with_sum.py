@@ -20,6 +20,22 @@ l = [-2,-1,0,3,5,6,7,9,13,14]
 print(using_hash(l, 8))
 
 
+def using_hash_alt(arr, sum):
+    s = set(arr)
+    seen = set()
+
+    l = set()
+    for val in s:
+        diff = sum - val
+        if diff not in seen and diff in s:
+            l.add((val, diff))
+            seen.add(val)
+    return l
+
+print(using_hash_alt(l, 8))
+
+
+
 
 # using two pointers, 1 beginning and 1 at the end, increment toward each other based on conditions
 def no_hash(arr, sum):
