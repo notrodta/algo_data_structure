@@ -23,6 +23,8 @@ print(combo(20,0))
 
 ''' ------------ dp ---------------'''
 def helper(amt, currentCoin, memo):
+    print(amt, currentCoin)
+
     if amt == 0:
         return 1
     if amt < 0:
@@ -42,7 +44,7 @@ def helper(amt, currentCoin, memo):
 
 
 def answer(amt):
-    memo = [[None for i in range(0,100)] for j in range(0,100)]
+    memo = [[None for i in range(0,len(list))] for j in range(0,amt+1)]
     return helper(amt, 0, memo)
 
 

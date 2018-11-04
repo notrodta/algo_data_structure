@@ -27,15 +27,26 @@ print(answer_memo(5))
 # similar to the coin change approach
 l = [1,2,3]
 def test(n):
+    memo = [None] * (n+1)
+    memo[0] = 0
+
+    return helper(n, memo)
+
+def helper(n, memo):
     if n == 0:
         return 1
     if n < 0:
         return 0
 
+    if memo[n]:
+        return memo[n]
+
     ways = 0
     for i in range(0,len(l)):
         remaining = n - l[i]
-        ways += test(remaining)
+        ways += helper(remaining, memo)
+
+    memo[n] = ways
 
     return ways
 

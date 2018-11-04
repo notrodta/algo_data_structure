@@ -82,6 +82,31 @@ def print_linked_list(head):
     print(s)
 
 
+
+'''           ANOTHER ANSWER          '''
+# second answer
+def alt_answer(root):
+    if root is None: return None
+
+    level = []
+    l = [root]
+    level.append([root.data])
+
+    while l:
+        temp = []
+        for node in l:
+            if node.left:
+                temp.append(node.left)
+            if node.right:
+                temp.append(node.right)
+        if temp:
+            level_temp = [node.data for node in temp]
+            level.append(level_temp)
+        l = temp
+
+    return level
+
+
 if __name__ == '__main__':
     root = Node(4)
     root.left = Node(2)
@@ -93,11 +118,14 @@ if __name__ == '__main__':
 
     get_all_link_list(list_of_depths(root))
 
+    print()
+    print("answer 2")
+    print(alt_answer(root))
+
     # for depth, list_nodes in enumerate(list_of_depths(root)):
     #     print('Depth', depth, end=': ')
     #     for n in list_nodes:
     #         print(n.data, end=' -> ')
     #     print('end')
-
 
 

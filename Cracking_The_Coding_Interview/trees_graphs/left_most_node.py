@@ -17,7 +17,7 @@ def traverse_tree(root):
 
     levels = []
     q = [root]
-    levels.append([root])
+    levels.append(root.data)
 
     while q:
         temp = []
@@ -26,11 +26,12 @@ def traverse_tree(root):
                 temp.append(i.left)
             if i.right:
                 temp.append(i.right)
-        if temp: levels.append(temp)
+        if temp: levels.append(temp[0].data)
         q = temp
 
-    for i in levels:
-        print(i[0])
+    print(levels)
+    # for i in levels:
+    #     print(i)
 
 
 

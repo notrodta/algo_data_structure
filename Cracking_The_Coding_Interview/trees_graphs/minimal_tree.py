@@ -24,6 +24,7 @@ class Node:
 # bst = left < parent < right
 
 def answer(list, start, end):
+    if len(list) < 0: return None
     if end < start: return
 
     mid = (start+end)//2

@@ -61,7 +61,7 @@ def is_bst_inorder(root):
 
     global prev
 
-    print(prev, root.data)
+    #print(prev, root.data)
 
     if prev is not None and root.data < prev: return False
     prev = root.data
@@ -93,8 +93,8 @@ print(is_bst_inorder_array(root1))
 print(is_bst_inorder(root1))
 print()
 
-from basic.tree_traversal import *
-inOrder(root1)
+# from basic.tree_traversal import *
+# inOrder(root1)
 
 
 

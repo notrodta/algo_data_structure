@@ -2,6 +2,9 @@
 
 import sys
 
+# https://www.youtube.com/watch?v=F28xN-S1SmI&t=113s
+# exponential time complexity without memo
+# O(mV) with memo  m = value you want to get, V = memo table size
 def minCoins(coins, n, memo):
     if n == 0:
         return 0

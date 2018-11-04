@@ -13,6 +13,7 @@ def generate_parens(n):
 
 
 def generate_parens_helper(curr, open_amt, close_amt):
+    print(curr)
     if open_amt == 0:
         return [curr + ")" * close_amt]
     if open_amt > 0 and close_amt == 0:
