@@ -14,21 +14,21 @@ def get_children(root):
         l.append(root.right)
     return l
 
-# # not the shortest, just return the first path found
-# def answer(root, end, path=[]):
-#     path = path + [root.data]
-#     print(path)
-#
-#     if root.data == end:
-#         return path
-#
-#     for node in get_children(root):
-#         if node.data not in path:
-#             newPath = answer(node, end, path)
-#             if newPath != None:
-#                 return newPath
-#
-#     return None
+# not the shortest, just return the first path found
+def answer(root, end, path=[]):
+    path = path + [root.data]
+    print(path)
+
+    if root.data == end:
+        return path
+
+    for node in get_children(root):
+        if node.data not in path:
+            newPath = answer(node, end, path)
+            if newPath != None:
+                return newPath
+
+    return None
 
 
 # testing

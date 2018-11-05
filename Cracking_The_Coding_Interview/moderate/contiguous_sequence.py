@@ -2,8 +2,9 @@
 
 import sys
 
+# O(n)?
 def answer(arr):
-    curr_sum, max_sum = 0, -sys.maxsize
+    curr_sum, max_sum = 0, -sys.maxsize -1
 
     arr_len = len(arr)
     for i in range(0, arr_len):

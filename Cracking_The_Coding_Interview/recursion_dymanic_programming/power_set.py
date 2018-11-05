@@ -25,6 +25,7 @@ def answer(set, subsets):
 # https://www.youtube.com/watch?v=J_odcqzHGqw
 #recursion:
 # expnential time complexity?
+# O(n2^n) in both time and space, becuase there will be n * 2 (n-1) diff combos
 def powerset(set, newset):
     #print(which)
     if set == []:

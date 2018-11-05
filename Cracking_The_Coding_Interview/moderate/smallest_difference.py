@@ -5,7 +5,8 @@
 
 
 import sys
-
+#O(aloga + blolgb + a + b)
+#overall : O(aloga + blolgb)
 def answer(arr1, arr2):
     arr1 = sorted(arr1)
     arr2 = sorted(arr2)

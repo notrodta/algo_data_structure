@@ -3,7 +3,7 @@
 
 # O(n*m)?   go thru every cell
 def paintfill(matrix, r, c, oldcolor, newcolor):
-    if r < 0 or r > len(matrix) or c < 0 or c > len(matrix[0]): return
+    if r < 0 or r >= len(matrix) or c < 0 or c >= len(matrix[0]): return
     if matrix[r][c] == newcolor: return
     if matrix[r][c] == oldcolor: matrix[r][c] = newcolor
 

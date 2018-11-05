@@ -2,7 +2,8 @@
 
 
 # similar to fib time complexity
-# O(3^n)
+# O(3^n) or O(branches ^ depth) without memo  , where n is the depth of recursive tree  (https://www.youtube.com/watch?v=NyV0d5QadWM)
+# O(mn) with memo, where n is step and m is how many diff steps u can take (length of l)
 def answer(n, memo):
 
     if n < 0 :

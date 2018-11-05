@@ -64,6 +64,7 @@ print(permutations2("abca"))
 # Calling perm O(n * n!) times (as an upper bound) and each call takes O(n) time, the total runtime will not exceed O(n^2 * n!).
 
 # permutation without unique characters
+# O(n!)
 def permutation(lst):
     # If lst is empty then there are no permutations
     if len(lst) == 0:

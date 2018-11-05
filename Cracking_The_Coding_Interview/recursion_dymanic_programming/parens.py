@@ -6,6 +6,7 @@
 
 
 # https://www.youtube.com/watch?v=LxwiwlUDOk4
+# The complexity of this code is O(n * Cat(n)) where Cat(n) is the nth Catalan number.  (https://stackoverflow.com/questions/37385964/time-complexity-for-combination-of-parentheses)
 def generate_parens(n):
     if n == 0: return []
 

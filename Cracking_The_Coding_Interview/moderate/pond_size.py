@@ -17,6 +17,36 @@ pond = [
 ]
 
 
+
+# time complexity: O(WH) <-- width*height
+def compute_pond_size(pond):
+    visited = set()
+    pond_size = set()
+    for r in range (0, len(pond)):
+        for c in range (0, len(pond[r])):
+            size = compute_size(pond, visited, r, c)
+            if size > 0:
+                pond_size.add(size)
+
+    return pond_size
+
+def compute_size(pond, visited, r, c):
+    if r < 0 or r >= len(pond) or c < 0 or c >= len(pond[r]) or pond[r][c] != 0 or (r,c) in visited:
+        return 0
+
+    size = 1
+    visited.add((r,c))
+    for i in range (-1,2):
+        for j in range (-1,2):
+            size += compute_size(pond, visited, r+i, c+j)
+
+    return size
+
+
+
+
+'''             OLD WAY, MESSY, DONT LIKE'''
+
 def ans(pond):
     l = set()
 
@@ -97,6 +127,8 @@ def bfs(pond,r,c,pond_node_visited):
 
 
 print(ans(pond))
+
+print(compute_pond_size(pond))
 
 
 
