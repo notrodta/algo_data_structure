@@ -81,6 +81,7 @@ graph = {0:[1,2],
          5: []}
 
 
+# using bfs
 def alt_ans(graph, s,d):
     visited = set()
     q = deque([])

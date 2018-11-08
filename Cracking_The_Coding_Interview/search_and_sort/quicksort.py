@@ -4,7 +4,10 @@
 # the pivot element at its correct position in sorted 
 # array, and places all smaller (smaller than pivot) 
 # to left of pivot and all greater elements to right 
-# of pivot 
+# of pivot
+
+# nice demo: http://me.dt.in.th/page/Quicksort/
+
 def partition(arr, low, high):
     i = (low - 1)  # index of smaller element
     pivot = arr[high]  # pivot

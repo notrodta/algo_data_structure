@@ -22,7 +22,7 @@ class Node:
 
 
 # bst = left < parent < right
-
+# O(log n)? <- same as binary search
 def answer(list, start, end):
     if len(list) < 0: return None
     if end < start: return

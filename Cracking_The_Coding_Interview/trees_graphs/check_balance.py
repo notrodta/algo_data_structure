@@ -4,7 +4,7 @@
 # tutorial: https://www.youtube.com/watch?v=nOcFiGl5Vy4
 from basic.bst import Node
 
-
+# o(n) time and o(h) space, h is height of tree
 def is_balanced(root):
     return is_balanced_height(root) >= 0
 

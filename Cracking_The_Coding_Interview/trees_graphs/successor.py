@@ -6,6 +6,7 @@
 from basic.bst import Node
 
 
+# O(n)  just inorder traversal
 def inorder(root,n, arr):
     if len(arr) >= 2:
         return

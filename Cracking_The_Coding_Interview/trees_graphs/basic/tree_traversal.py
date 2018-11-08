@@ -1,3 +1,5 @@
+#all O(n)
+
 def inOrder(node):
     if node != None:
         inOrder(node.left)

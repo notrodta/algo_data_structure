@@ -83,8 +83,9 @@ def print_linked_list(head):
 
 
 
-'''           ANOTHER ANSWER          '''
+'''           ANOTHER ANSWER  (better and cleaner)        '''
 # second answer
+# O(n)
 def alt_answer(root):
     if root is None: return None
 
